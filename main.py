@@ -3,7 +3,7 @@ import asyncio
 from telebot.async_telebot import AsyncTeleBot
 
 # masukan api key dan api token yang di butuhkan
-openai.api_key = "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"
+openai.api_key = "sk-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"
 bot = AsyncTeleBot('6219083756:AAGw0-Kjn-g7sw6dPW3e8OY7LRoutQdCcTA')
 
 
