@@ -4,13 +4,13 @@ from telebot.async_telebot import AsyncTeleBot
 
 # masukan api key dan api token yang di butuhkan
 openai.api_key = "isi api key akun openai"
-bot = AsyncTeleBot('isi api token bot telegram')
+bot = AsyncTeleBot('6219083756:AAGw0-Kjn-g7sw6dPW3e8OY7LRoutQdCcTA')
 
 
 @bot.message_handler(commands=['help', 'start'])
 async def send_welcome(message):
     await bot.reply_to(message, """\
-Halo salam kenal dengan saya jono,ada yang bisa saya bantu?\
+Halo salam kenal dengan saya burhan,ada yang bisa saya bantu?\
 """)
 
 @bot.message_handler(func=lambda message: True)
